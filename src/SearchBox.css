@@ -1,0 +1,79 @@
+/* Global styling */
+body {
+    background-color: white;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* SearchBox container styling */
+.SearchBox {
+    text-align: center;
+    padding: 20px;
+}
+
+/* Navbar styling */
+.nav-about {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    background-color: #f4f4f4;
+    width: 100%;
+}
+
+.nav-about a {
+    text-decoration: none;
+    color: #1976d2;
+    font-size: 16px;
+    margin-right: 20px;
+}
+
+/* Title and form styling */
+h3 {
+    color: black;
+    margin-top: 20px;
+}
+
+form {
+    margin-top: 20px;
+}
+
+/* Weather result styling */
+.SearchBox div {
+    margin-top: 20px;
+    color: black;  /* Make sure text is black */
+}
+
+.SearchBox p {
+    font-size: 16px;
+    line-height: 2.5;
+}
+
+/* Button styling */
+button {
+    margin-top: 10px;
+}
+
+/* Change input text field color for contrast */
+.MuiInputBase-root {
+    color: black; /* Text inside input field is black */
+}
+
+/* Optional: You can add a background color to make the weather info stand out more */
+.SearchBox div {
+    background-color: #f4f4f4;
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+}
+
+/* Loading Spinner */
+.loading-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+  

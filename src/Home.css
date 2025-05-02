@@ -1,0 +1,90 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Set the entire page's height to ensure centering */
+  body, html {
+    height: 100%;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Container to align content to the top-center */
+  .home-about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    height: 100%;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  /* Navigation Styling */
+  .nav-about {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .nav-about ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .nav-about li {
+    display: inline-block;
+    margin: 0 15px;
+  }
+  
+  .nav-about a {
+    text-decoration: none;
+    color: #333;
+    font-size: 16px;
+    font-weight: 500;
+    transition: color 0.3s ease;
+  }
+  
+  .nav-about a:hover {
+    color: #007BFF; /* Change to desired hover color */
+  }
+  
+  /* Heading and Text Styling */
+  h1 {
+    font-size: 3rem;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  h5 {
+    font-size: 1.5rem;
+    margin-top: 20px;
+  }
+  
+  p {
+    font-size: 1.2rem;
+    color: #666;
+    margin-bottom: 20px;
+  }
+  
+  /* Mobile Responsiveness */
+  @media (max-width: 600px) {
+    h1 {
+      font-size: 2rem;
+    }
+  
+    h5 {
+      font-size: 1.2rem;
+    }
+  
+    p {
+      font-size: 1rem;
+    }
+  
+    .nav-about li {
+      margin: 0 10px;
+    }
+  }
+  
